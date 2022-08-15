@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flapp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>Velkomin í dýflissuna <br>
+        <h2>- ýttu á space ef þú þorir -</h2>
+    </header>
+    <!-- til að halda utanum leaderboard og canvas  -->
+    <div class="grid-container">
+        <div class="item1">
+            <!-- leaderboard  -->
+            <div class="leaderboard">
+                <p>Þitt besta:</p>
+                <ul id="highscores">
+                </ul>
+            </div>
+        </div>
+        <div class="item2">
+            <!-- leikurinn  -->
+            <canvas id="canvas1"></canvas>
+            <!-- fyrir player elements -->
+            <script src="bird.js"></script>
+            <!-- fyrir regnboga trail-->
+            <script src="particles.js"></script>
+            <!-- pipur til að forðast -->
+            <script src="obstacles.js"></script>
+            <!-- canvas setup, event listeners og allt annað -->
+            <script src="main.js"></script>
+        </div>
+    </div>
+    <p1>gangi þér vel..... eða ekki..</p>
+</body>
+
+</html>
